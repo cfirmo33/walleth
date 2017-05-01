@@ -7,9 +7,9 @@ import android.support.test.espresso.matcher.ViewMatchers.Visibility.*
 import org.junit.Rule
 import org.junit.Test
 import org.ligi.trulesk.TruleskActivityRule
-import org.ligi.walleth.R
-import org.ligi.walleth.activities.MainActivity
-import org.ligi.walleth.data.ETH_IN_WEI
+import org.walleth.R
+import org.walleth.activities.MainActivity
+import org.walleth.data.ETH_IN_WEI
 import java.math.BigInteger
 
 class TheMainActivity {
