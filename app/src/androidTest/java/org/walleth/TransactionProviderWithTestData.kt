@@ -1,12 +1,13 @@
 package org.walleth
 
-import org.ligi.walleth.data.Transaction
-import org.ligi.walleth.data.TransactionProvider
+import org.ligi.walleth.data.SimpleObserveable
 import org.ligi.walleth.data.WallethAddress
+import org.ligi.walleth.data.transactions.Transaction
+import org.ligi.walleth.data.transactions.TransactionProvider
 import org.threeten.bp.LocalDateTime
 import java.math.BigInteger
 
-class TransactionProviderWithTestData : TransactionProvider {
+class TransactionProviderWithTestData : SimpleObserveable(), TransactionProvider {
 
     val transactionList = mutableListOf<Transaction>()
 
